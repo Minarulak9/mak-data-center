@@ -400,6 +400,9 @@ input[type=number] {
 
 
 @media only screen and (max-width:800px){
+    .container{
+        width: 95%;
+    }
     .new-user-form>div{
         flex-wrap: wrap;
         width: 100%;
@@ -411,7 +414,7 @@ input[type=number] {
         grid-template-columns: 1fr;
     }
     .user-details.active{
-        padding: 1rem;
+        padding:1rem 1rem 7rem 1rem;
     }
     .user-details h2{
         font-size: 2.5rem;
